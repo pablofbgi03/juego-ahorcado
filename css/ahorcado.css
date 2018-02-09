@@ -1,0 +1,107 @@
+#modelo {
+    display: none;
+    padding-top: 20px;
+}
+
+#tablero {
+    display: block;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#controles {
+    font-size: 5em;
+    margin: auto;
+    width: fit-content;
+}
+
+#perdedor {
+    display: none;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#perdedor img {
+    border-radius: 5px;
+}
+
+#ganador {
+    display: none;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ganador img {
+    border-radius: 5px;
+}
+
+#contenedor {
+    width: 900px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#usadas {
+    display: none;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#solucion {
+    display: none;
+}
+
+#intro {
+    margin: 20px;
+    height: 450px;
+}
+
+#intro h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+#intro h3 {
+    font-size: 2em;
+}
+
+#intro p {
+    text-align: justify;
+    font-size: 2em;
+}
+
+button {
+    display: block;
+    border-radius: 28px;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #d93f34;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background: #3cb0fd;
+}
+
+#reinicia {
+    display: none;
+}
+
+body {
+    background-image: url("../image/fondo.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

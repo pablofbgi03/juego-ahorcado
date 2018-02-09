@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <LINK REL=StyleSheet HREF="css/ahorcado.css" TYPE="text/css">
+    <script src="javascript/ahorcado.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Juego del ahorcado</title>
+
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="intro">
+            <h1>El ahorcado</h1>
+            <h3>Descripción</h3>
+            <p>El ahorcado es un juego de adivinanzas de lápiz y papel para dos o más jugadores. Un jugador piensa en una palabra, frase u oración y el otro trata de adivinarla según lo que sugiere por letras o números.</p>
+            <button id="jugar">Empezar el juego</button>
+        </div>
+        <div id="modelo">
+            <canvas id="tablero" width="500" height="500"></canvas>
+        </div>
+        <div id="ganador">
+            <img src="image/ganador.jpg" alt="vivo">
+        </div>
+        <div id="perdedor">
+            <img src="image/perdedor.jpg" alt="muerto">
+        </div>
+
+        <div id="controles">
+
+        </div>
+
+        <div id="solucion">
+            <h3>La palabra es:</h3>
+        </div>
+        <div id="usadas">
+            <h2>Letras usadas:</h2>
+        </div>
+        <div id="reinicia">
+            <button id="volver">Volver a jugar</button>
+        </div>
+    </div>
+</body>
+
+</html>
